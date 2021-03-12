@@ -1,0 +1,9 @@
+plugins {
+    id "org.springframework.boot"
+}
+
+dependencies {
+    runtimeOnly project(':domain')
+    runtimeOnly project(':rest-api')
+    implementation "org.springframework.boot:spring-boot-starter"
+}
